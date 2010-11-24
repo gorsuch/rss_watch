@@ -1,0 +1,6 @@
+---
+rss_feed: 'http://somesite.com/rss.xml'
+state_file_name: '/var/run/rss_watch/latest-item.txt'
+hipchat_key: 'yourapikey'
+hipchat_room: 'Support'
+hipchat_user: 'statusbot'

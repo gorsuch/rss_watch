@@ -1,0 +1,6 @@
+rss_watch is a simple ruby script that looks for new status blog posts.  If they show up, it notifies the support team via hipchat.  
+
+It uses the following cron entry:
+*/5 * * * * /usr/local/bin/ruby /usr/local/bin/rss_watch.rb
+
+The yaml file is installed in /usr/local/etc, and rss_watch.rb is install in /usr/local/bin
